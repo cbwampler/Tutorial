@@ -5,41 +5,101 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Tutorial</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
- </head>
+    <link href="https://fonts.googleapis.com/css?family=Bungee+Inline|Handlee&display=swap" rel="stylesheet">
+</head>
 <body>
-    <header>
-        <div class="header-container">
-            <div class="header">
-                <h1>Javascript Tutorial</h1>
+        <div class="sidebar">
+                <a href="#weather">Weather</a>
+                <a href="#date">Date:</a>
+                <a href=">Current Time:</a>
+                <h3>More Resources:</h3>
+                <a href="https://www.w3schools.com/html/">Visit our HTML tutorial</a>
+
             </div>
+            <div class="content">
+
+            </div>
+<div class="header-container">
+    <header>
+        <div class="header">
+            <h1 id='title'>Javascript Tutorial</h1>
         </div>
     </header>
+</div>   
     <nav>
-        <div class="navbar-container">
-            <ul class="navbar">
-                <li>WELCOME</li>
-                <li class="nav-menu"> <a href="#about">ABOUT</a></li>
-                <li><a href="#book">MORE RESOURCES</a></li>
-            </ul>
-        </div>
+        <ul class="nav justify-content-end">
+            <li class="nav-item">
+                <a class="nav-link" href="#">Functions</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Objects</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Arrays</a>
+            </li>
+            
+        </ul>
     </nav>
-    <div class="main-body">
-        <div class="grid-container"></div>
-        <div class="wrapper">
-            <div class="box1">
-                <h2>FUNCTIONS</h2>
-            </div>
-            <div class="box2">
-                <h2>CONDITIONALS</h2>
-            </div>
-            <div class="box3">
-                <h2>ARRAYS</h2>
-            </div>
-        </div>       
-    </div>
-    <footer>
 
-    </footer>
+    <div class="row">
+    <div class="col-2">
+    </div>
+    <div class="col">   
+    <div class="box">
+        <div class="box-inner">
+        <div class="box-front">
+            <h2 id="front-title">Functions</h2>
+        </div>
+        <div class="box-back">
+            <h2 id='back-subtitle'>What is a Function?</h2>
+            <ul>
+            <li>A function is a subprogram designed to perform a particular task.</li>
+            <li>Functions are executed when they are called. This is known as invoking a function.</li>
+            <li>Values can be passed into functions and used within the function.</li>
+            <li>Functions always return a value. In JavaScript, if no return value is specified, the function will return undefined.</li>
+            <li>Functions are objects.</li>
+        </div>
+        </div>
+    </div>
+    </div>
+    <div class="col">
+    <div class="box1">
+        <div class="box1-inner">
+        <div class="box1-front">
+            <h2 id='front-title'>Objects</h2>
+        </div>
+        <div class="box1-back">
+            <h2 id="back-subtitle">What is an Object?</h2>
+            <p>Objects in JavaScript, just as in many other programming languages, can be compared to objects in real life. The concept of objects in JavaScript can be understood with real life, tangible objects.
+
+            In JavaScript, an object is a standalone entity, with properties and type. Compare it with a cup, for example. A cup is an object, with properties. A cup has a color, a design, weight, a material it is made of, etc. The same way, JavaScript objects can have properties, which define their characteristics.</p>
+        </div>
+        </div>
+    </div>
+</div>
+<div class="col">
+    <div class="box2">
+        <div class="box2-inner">
+        <div class="box2-front">
+            <h2 id='front-title'>Arrays</h2>
+        </div>
+        <div class="box2-back">
+            <h2 id="back-subtitle">What is an Array?</h2>
+            <p>The Array object lets you store multiple values in a single variable. It stores a fixed-size sequential collection of elements of the same type. An array is used to store a collection of data, but it is often more useful to think of an array as a collection of variables of the same type.</p>
+            <br>
+            <p>The Array parameter is a list of strings or integers. When you specify a single numeric parameter with the Array constructor, you specify the initial length of the array. The maximum length allowed for an array is 4,294,967,295.ß</p>
+        </div>
+    </div>
+    </div>
+</div>
+</div>
+</div>
+<footer>
+<div class="footer">
+    <p>THE END!!!</p>
+</div>
+</footer>
 </body>
 </html>
